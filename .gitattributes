@@ -1,0 +1,25 @@
+# Auto detect text files and normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.css text
+*.html text
+*.json text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.md text
+*.yml text
+*.yaml text
+*.prisma text
+
+# Denote binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
